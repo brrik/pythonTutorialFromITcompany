@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.altx.co.jp/"
+url = "ここにWebサイトのURLを入れる"
 req = requests.get(url)
 
 bs = BeautifulSoup(req.text,"html.parser")
